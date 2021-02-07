@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Ebiondic.CRPG214_A1.App
 {
-	public partial class Register : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class About : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+    }
 }

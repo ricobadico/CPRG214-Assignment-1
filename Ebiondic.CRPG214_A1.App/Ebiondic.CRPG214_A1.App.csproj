@@ -123,6 +123,7 @@
     <Content Include="Media\banner.jpg" />
     <Content Include="Media\bannerEdit.jpg" />
     <Content Include="Media\marina1.jpg" />
+    <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -262,7 +263,6 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -270,6 +270,7 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -296,6 +297,13 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

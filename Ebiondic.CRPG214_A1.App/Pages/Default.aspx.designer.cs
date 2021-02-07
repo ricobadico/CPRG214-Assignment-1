@@ -7,9 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ebiondic.CRPG214_A1.App {
-    
-    
-    public partial class Register {
+
+namespace Ebiondic.CRPG214_A1.App
+{
+    public partial class _Default
+    {
     }
 }
