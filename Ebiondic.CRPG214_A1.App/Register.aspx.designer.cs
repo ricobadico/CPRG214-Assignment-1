@@ -10,7 +10,7 @@
 
 namespace Ebiondic.CRPG214_A1.App
 {
-    public partial class About
+    public partial class Register
     {
     }
 }

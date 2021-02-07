@@ -44,3 +44,12 @@ textarea {
 .bg-marinaPrimary {
     background-color :rgb(50,150,210) ;
 }
+
+.emphasis-pic{
+    width: 50%;
+    min-width: 290px;
+    height:auto;
+    display:block;
+    margin: 1em auto;
+    border-radius: 10px;
+}

@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body class="d-flex flex-column align-content-center jusitify-content-center">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -38,12 +38,11 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <header class="d-flex flex-column align-content-center jusitify-content-center">
             <div class="header-banner bg-marinaSecondary d-flex flex-row justify-content-center" style="border-bottom: inset">
                 <a class="banner-logo" href="/"></a>
             </div>
             
-            <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+            <nav class="navbar navbar-dark navbar-expand-lg bg-primary sticky-top" style="box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25); box-sizing:border-box">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" 
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -57,10 +56,13 @@
                             <a class="nav-link" href="~/" runat="server">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="~/Courses" runat="server">Courses</a>
+                        <a class="nav-link" href="~/Slips" runat="server">Available Slips</a>
                         </li>
 	                    <li class="nav-item">
-                        <a class="nav-link" href="/Instructors" runat="server">Instructors</a>
+                        <a class="nav-link" href="/Contact" runat="server">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/Register" runat="server">Register</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
@@ -90,7 +92,7 @@
                     </ul>
                 </div>
             </nav>
-        </header>
+       
          
 
         <div class="container body-content">
