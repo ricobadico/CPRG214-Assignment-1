@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace Ebiondic.CRPG214_A1.App
+namespace CPRG214.Assignment1.App
 {
     public static class RouteConfig
     {

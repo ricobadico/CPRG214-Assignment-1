@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ebiondic.CRPG214_A1.App.Controls
+namespace CPRG214.Assignment1.App.Controls
 {
 
 

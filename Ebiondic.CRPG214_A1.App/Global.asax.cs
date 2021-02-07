@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace Ebiondic.CRPG214_A1.App
+namespace CPRG214.Assignment1.App
 {
     public class Global : HttpApplication
     {

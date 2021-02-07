@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Ebiondic.CRPG214_A1.App.Controls
+namespace CPRG214.Assignment1.App.Controls
 {
     public partial class Registration : System.Web.UI.UserControl
     {

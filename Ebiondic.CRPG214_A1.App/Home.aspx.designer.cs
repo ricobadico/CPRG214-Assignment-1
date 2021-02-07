@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Ebiondic.CRPG214_A1.App
+namespace CPRG214.Assignment1.App
 {
     public partial class Home
     {

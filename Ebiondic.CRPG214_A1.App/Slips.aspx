@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Slips.aspx.cs" Inherits="Ebiondic.CRPG214_A1.App.Slips" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Slips.aspx.cs" Inherits="CPRG214.Assignment1.App.Slips" %>
 
 <%@ Register Src="~/Controls/SlipData.ascx" TagPrefix="uc1" TagName="SlipData" %>
 

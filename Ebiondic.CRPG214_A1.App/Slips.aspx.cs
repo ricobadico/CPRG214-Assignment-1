@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Ebiondic.CRPG214_A1.Data;
+using CPRG214.Assignment1.Data;
 
-namespace Ebiondic.CRPG214_A1.App
+namespace CPRG214.Assignment1.App
 {
     public partial class Slips : System.Web.UI.Page
     {

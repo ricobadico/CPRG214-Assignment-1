@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Ebiondic.CRPG214_A1.App.Secure
+namespace CPRG214.Assignment1.App.Secure
 {
     public partial class Lease : System.Web.UI.Page
     {

@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Registration.ascx.cs" Inherits="Ebiondic.CRPG214_A1.App.Controls.Registration" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Registration.ascx.cs" Inherits="CPRG214.Assignment1.App.Controls.Registration" %>
 
 <br />
 <h3>Registration Add/Update</h3>

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Ebiondic.CRPG214_A1.App.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CPRG214.Assignment1.App.SiteMaster" %>
 
 <!DOCTYPE html>
 

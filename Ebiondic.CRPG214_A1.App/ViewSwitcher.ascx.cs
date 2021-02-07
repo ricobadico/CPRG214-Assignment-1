@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
 
-namespace Ebiondic.CRPG214_A1.App
+namespace CPRG214.Assignment1.App
 {
     public partial class ViewSwitcher : System.Web.UI.UserControl
     {

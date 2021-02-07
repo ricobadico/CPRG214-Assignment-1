@@ -9,3 +9,4 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\De
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CRPG214.Assignment1.Data.csproj.CopyComplete
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\Ebiondic.CRPG214_A1.Data.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\Ebiondic.CRPG214_A1.Data.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CRPG214.Assignment1.Data.csprojAssemblyReference.cache

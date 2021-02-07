@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ebiondic.CRPG214_A1.Data
+namespace CPRG214.Assignment1.Data
 {
     using System;
     using System.Collections.Generic;

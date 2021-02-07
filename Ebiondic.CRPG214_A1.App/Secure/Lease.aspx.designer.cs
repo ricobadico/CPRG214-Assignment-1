@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Ebiondic.CRPG214_A1.App.Secure
+namespace CPRG214.Assignment1.App.Secure
 {
     public partial class Lease
     {

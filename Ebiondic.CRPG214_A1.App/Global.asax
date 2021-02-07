@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Ebiondic.CRPG214_A1.App.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CPRG214.Assignment1.App.Global" Language="C#" %>
