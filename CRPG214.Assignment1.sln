@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebiondic.CRPG214_A1.App", "Ebiondic.CRPG214_A1.App\Ebiondic.CRPG214_A1.App.csproj", "{078314FE-37B0-4BA4-9D81-9EA3D5C98883}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPG214.Assignment1.App", "Ebiondic.CRPG214_A1.App\CRPG214.Assignment1.App.csproj", "{078314FE-37B0-4BA4-9D81-9EA3D5C98883}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebiondic.CRPG214_A1.Data", "Ebiondic.CRPG214_A1.Data\Ebiondic.CRPG214_A1.Data.csproj", "{347D063C-AEB2-464C-BADB-83EDB39047FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPG214.Assignment1.Data", "Ebiondic.CRPG214_A1.Data\CRPG214.Assignment1.Data.csproj", "{347D063C-AEB2-464C-BADB-83EDB39047FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

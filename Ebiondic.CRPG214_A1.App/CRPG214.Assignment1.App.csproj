@@ -386,9 +386,9 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ebiondic.CRPG214_A1.Data\Ebiondic.CRPG214_A1.Data.csproj">
+    <ProjectReference Include="..\Ebiondic.CRPG214_A1.Data\CRPG214.Assignment1.Data.csproj">
       <Project>{347d063c-aeb2-464c-badb-83edb39047ff}</Project>
-      <Name>Ebiondic.CRPG214_A1.Data</Name>
+      <Name>CRPG214.Assignment1.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
