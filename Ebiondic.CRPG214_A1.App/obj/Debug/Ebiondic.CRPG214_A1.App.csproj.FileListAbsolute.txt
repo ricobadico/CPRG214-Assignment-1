@@ -72,3 +72,10 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Deb
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\Ebiondic.CRPG214_A1.App.csproj.CopyComplete
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\Ebiondic.CRPG214_A1.App.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\Ebiondic.CRPG214_A1.App.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.dll.config
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.xml
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.SqlServer.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.SqlServer.xml

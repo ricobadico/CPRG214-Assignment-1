@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPG214.Assignment1.App", "Ebiondic.CRPG214_A1.App\CRPG214.Assignment1.App.csproj", "{078314FE-37B0-4BA4-9D81-9EA3D5C98883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPG214.Assignment1.Data", "Ebiondic.CRPG214_A1.Data\CRPG214.Assignment1.Data.csproj", "{347D063C-AEB2-464C-BADB-83EDB39047FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078314FE-37B0-4BA4-9D81-9EA3D5C98883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078314FE-37B0-4BA4-9D81-9EA3D5C98883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078314FE-37B0-4BA4-9D81-9EA3D5C98883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078314FE-37B0-4BA4-9D81-9EA3D5C98883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347D063C-AEB2-464C-BADB-83EDB39047FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347D063C-AEB2-464C-BADB-83EDB39047FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347D063C-AEB2-464C-BADB-83EDB39047FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347D063C-AEB2-464C-BADB-83EDB39047FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E01013A-C93E-43BB-BD7F-30D1D9CB6D5F}
+	EndGlobalSection
+EndGlobal

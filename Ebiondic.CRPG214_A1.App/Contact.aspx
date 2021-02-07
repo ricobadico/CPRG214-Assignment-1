@@ -1,17 +1,39 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Ebiondic.CRPG214_A1.App.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+    <h2 class="text-center p-3">Contact Us</h2>
+    
+    <div class="container">
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+        <div class="row">
+            <div class="col-sm">
+                <h4>Address</h4>
+                <address>
+                    Inland Lake Marina <br /> 
+                    Box 123<br />
+                    Inland Lake, Arizona 86038<br />
+                </address>
+            </div>
+      
+            <div class="col-sm">
+                <h4>Phone</h4>
+                <address>
+                   Office: 928-555-2234 <br />
+                    Leasing: 928-555-2235 <br />
+                    Fax: 928-555-2236 <br />
+                </address>
+            </div>
+   
+            <div class="col-sm">
+                <h4>Contacts</h4>
+                <address>
+                    <strong>Manager</strong>   Glenn Cooke<br />
+                    <strong>Slip Manager:</strong> Kimberly Carlson <br />
+                    <strong>Contact email:</strong> <a href="mailto:info@inlandmarina.com">info@inlandmarina.com</a>
+                </address>
+            </div>
+        </div>
+
+    </div>
+    
 </asp:Content>
