@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Ebiondic.CRPG214_A1.Data;
 
 namespace Ebiondic.CRPG214_A1.App
 {
@@ -11,7 +12,11 @@ namespace Ebiondic.CRPG214_A1.App
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                grdSlips.DataSource = SlipManager.GetFreeSlips();
+                grdSlips.DataBind();
+            }
         }
     }
 }
