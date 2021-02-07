@@ -1,6 +1,5 @@
-﻿/* Move down content because we have a fixed navbar that is 50px tall */
+﻿
 body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -28,4 +27,20 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+.banner-logo {
+    display: block;
+    background-image: url('../Media/bannerEdit.jpg');
+    background-position: center;
+    width: 860px;
+    height: 100px;
+}
+
+.bg-marinaSecondary {
+    background-color: #536677;
+}
+
+.bg-marinaPrimary {
+    background-color :rgb(50,150,210) ;
 }

@@ -7,20 +7,39 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
 namespace Ebiondic.CRPG214_A1.App
 {
+
+
     public partial class SiteMaster
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// navbarDropdown control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor navbarDropdown;
+
+        /// <summary>
+        /// uxWelcome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl uxWelcome;
+
+        /// <summary>
+        /// uxLogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor uxLogin;
 
         /// <summary>
         /// MainContent control.
