@@ -15,40 +15,40 @@ namespace CPRG214.Assignment1.App
     {
 
         /// <summary>
-        /// uxFName control.
+        /// uxUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox uxFName;
+        protected global::System.Web.UI.WebControls.TextBox uxUsername;
 
         /// <summary>
-        /// uxFameVali control.
+        /// uxUsernameVali control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxFameVali;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxUsernameVali;
 
         /// <summary>
-        /// uxLName control.
+        /// uxPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox uxLName;
+        protected global::System.Web.UI.WebControls.TextBox uxPassword;
 
         /// <summary>
-        /// uxLNameVali control.
+        /// uxPasswordVali control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxLNameVali;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxPasswordVali;
 
         /// <summary>
         /// uxAuthenticate control.

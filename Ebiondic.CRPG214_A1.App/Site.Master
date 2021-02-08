@@ -65,7 +65,7 @@
                         <a class="nav-link" href="~/Contact" runat="server">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="~/Register" runat="server">Register</a>
+                        <a class="nav-link" href="~/Login" runat="server">Login</a>
                         </li>
                         
                     </ul>
