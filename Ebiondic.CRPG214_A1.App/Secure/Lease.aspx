@@ -5,5 +5,7 @@
     <p class="text-center">&nbsp;</p>
 
 
+    C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.App.DLL
+    C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CPRG214_Assignment1.App.DLL
 
 </asp:Content>

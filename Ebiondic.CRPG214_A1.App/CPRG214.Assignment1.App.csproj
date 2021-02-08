@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CRPG214_Assignment1.App</RootNamespace>
-    <AssemblyName>CRPG214_Assignment1.App</AssemblyName>
+    <RootNamespace>CPRG214_Assignment1.App</RootNamespace>
+    <AssemblyName>CPRG214_Assignment1.App</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -122,7 +122,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Controls\DockSelector.ascx" />
     <Content Include="Controls\Registration.ascx" />
     <Content Include="Controls\SlipData.ascx" />
     <Content Include="Default.aspx" />
@@ -283,13 +282,6 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\DockSelector.ascx.cs">
-      <DependentUpon>DockSelector.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controls\DockSelector.ascx.designer.cs">
-      <DependentUpon>DockSelector.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Controls\Registration.ascx.cs">
       <DependentUpon>Registration.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -387,9 +379,9 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ebiondic.CRPG214_A1.Data\CRPG214.Assignment1.Data.csproj">
+    <ProjectReference Include="..\Ebiondic.CRPG214_A1.Data\CPRG214.Assignment1.Data.csproj">
       <Project>{347d063c-aeb2-464c-badb-83edb39047ff}</Project>
-      <Name>CRPG214.Assignment1.Data</Name>
+      <Name>CPRG214.Assignment1.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -7,8 +7,8 @@
     <ProjectGuid>{347D063C-AEB2-464C-BADB-83EDB39047FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CRPG214_Assignment1.Data</RootNamespace>
-    <AssemblyName>CRPG214_Assignment1.Data</AssemblyName>
+    <RootNamespace>CPRG214_Assignment1.Data</RootNamespace>
+    <AssemblyName>CPRG214_Assignment1.Data</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DockManager.cs" />
     <Compile Include="SlipManager.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>Marina.tt</DependentUpon>
