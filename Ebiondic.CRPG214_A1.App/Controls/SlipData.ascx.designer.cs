@@ -33,30 +33,30 @@ namespace CPRG214.Assignment1.App.Controls
         protected global::System.Web.UI.WebControls.Label lblID;
 
         /// <summary>
-        /// lblLength control.
+        /// lblSize control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLength;
+        protected global::System.Web.UI.WebControls.Label lblSize;
 
         /// <summary>
-        /// lblWidth control.
+        /// lblWater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWidth;
+        protected global::System.Web.UI.WebControls.Label lblWater;
 
         /// <summary>
-        /// lblDockID control.
+        /// lblElectric control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDockID;
+        protected global::System.Web.UI.WebControls.Label lblElectric;
     }
 }

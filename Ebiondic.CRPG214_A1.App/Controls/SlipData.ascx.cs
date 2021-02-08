@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CPRG214_Assignment1.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,14 @@ namespace CPRG214.Assignment1.App.Controls
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public void fillSlipData(Slip slip)
+        {
+            lblID.Text = $"Slip #{slip.ID}";
+            lblSize.Text = $"{slip.Width}W x {slip.Length}L";
+            lblWater.Text = $"{(slip.Dock.WaterService ? "yes" : "no")}";
+            lblElectric.Text = $"{(slip.Dock.ElectricalService ? "yes" : "no")}";
         }
     }
 }
