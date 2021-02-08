@@ -15,12 +15,30 @@ namespace CPRG214.Assignment1.App
     {
 
         /// <summary>
-        /// grdSlips control.
+        /// grdSlipsDock1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdSlips;
+        protected global::System.Web.UI.WebControls.GridView grdSlipsDock1;
+
+        /// <summary>
+        /// grdSlipsDock2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdSlipsDock2;
+
+        /// <summary>
+        /// grdSlipsDock3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdSlipsDock3;
     }
 }
