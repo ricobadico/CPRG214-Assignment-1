@@ -67,5 +67,11 @@ namespace CPRG214_Assignment1.Data
 
             return slipData;
         }
+
+        public static object Authenticate(string fname, string lname)
+        {
+            var db = new MarinaEntities();
+            db.Authentications.SingleOrDefault
+        }
     }
 }
