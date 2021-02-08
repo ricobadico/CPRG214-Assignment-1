@@ -132,6 +132,7 @@
     <Content Include="Media\banner.jpg" />
     <Content Include="Media\bannerEdit.jpg" />
     <Content Include="Media\marina1.jpg" />
+    <Content Include="Media\marina2.jpg" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />

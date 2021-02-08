@@ -3,7 +3,7 @@
 <%@ Register Src="~/Controls/SlipData.ascx" TagPrefix="uc1" TagName="SlipData" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-     <h2>Available Slips</h2>
+     <h2 class="text-center">Available Slips</h2>
     <h3>Below are a list of slips currently available for leasing, along with their details.</h3>
 
  <div class="container"></div>
