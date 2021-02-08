@@ -11,6 +11,8 @@
         <div class="col-sm-4">
             <h5 class="text-center">Dock 1</h5>
             <asp:GridView ID="grdSlipsDock1" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock1_RowDataBound">
+            <RowStyle HorizontalAlign="Center" />     
+                <HeaderStyle HorizontalAlign="Center" /> 
                 <AlternatingRowStyle BackColor="White" />
                 <EditRowStyle BackColor="#2461BF" CssClass="text-center" HorizontalAlign="Center" />
                 <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
@@ -27,6 +29,8 @@
         <div class="col-sm-4">
             <h5 class="text-center">Dock 2</h5>
             <asp:GridView ID="grdSlipsDock2" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock2_RowDataBound">
+            <HeaderStyle HorizontalAlign="Center" /> 
+                <RowStyle HorizontalAlign="Center" />                
                 <AlternatingRowStyle BackColor="White" />
                 <EditRowStyle BackColor="#2461BF" />
                 <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
@@ -43,6 +47,8 @@
         <div class="col-sm-4">
             <h5 class="text-center">Dock 3</h5>
             <asp:GridView ID="grdSlipsDock3" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock3_RowDataBound">
+            <RowStyle HorizontalAlign="Center" />
+                <HeaderStyle HorizontalAlign="Center" /> 
                     <AlternatingRowStyle BackColor="White" />
                     <EditRowStyle BackColor="#2461BF" />
                     <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
