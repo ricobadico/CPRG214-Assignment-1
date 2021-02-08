@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using CPRG214.Assignment1.Data;
 using CPRG214_Assignment1.App.Controls;
 using CPRG214_Assignment1.Data;
 
@@ -16,6 +15,14 @@ namespace CPRG214.Assignment1.App
         {
             if (!IsPostBack)
             {
+<<<<<<< HEAD
+=======
+                // Get data from database
+                grdSlipsDock1.DataSource = MarinaManager.getFreeSlipDataForViewing(1);
+                grdSlipsDock2.DataSource = MarinaManager.getFreeSlipDataForViewing(2);
+                grdSlipsDock3.DataSource = MarinaManager.getFreeSlipDataForViewing(3);
+                DataBind();
+>>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d
 
                 ddlDock.DataSource = DockManager.GetDocks();
                 ddlDock.DataTextField = "Name";

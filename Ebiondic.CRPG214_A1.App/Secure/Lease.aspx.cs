@@ -1,5 +1,4 @@
-﻿using CPRG214.Assignment1.Data;
-using CPRG214_Assignment1.App.Controls;
+﻿using CPRG214_Assignment1.App.Controls;
 using CPRG214_Assignment1.Data;
 using System;
 using System.Collections.Generic;
@@ -15,18 +14,31 @@ namespace CPRG214.Assignment1.App.Secure
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["CustomerID"] == null)
+            {
+                Response.Redirect("~/Register");
+            }
+
             if (!IsPostBack)
             {
+<<<<<<< HEAD
                 // Bind Dock Data to dropdown
                 ddlDock.DataSource = DockManager.GetDocks();
+=======
+                ddlDock.DataSource = MarinaManager.GetDocks();
+>>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d
                 ddlDock.DataTextField = "Name";
                 ddlDock.DataValueField = "ID";
                 ddlDock.DataBind();
 
                 // Set up default dropdown/page view
                 ddlDock.SelectedIndex = 0;
+<<<<<<< HEAD
                 //pnlStep2.Visible = false;
             }
+=======
+                pnlStep2.Visible = false;            }
+>>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d
         }
 
         // Fires whenever the dropdown changes to update the data grid
@@ -34,9 +46,14 @@ namespace CPRG214.Assignment1.App.Secure
         {
             // Get dock id from withing dropdown selection
             int dockID = Convert.ToInt32(ddlDock.SelectedValue);
+<<<<<<< HEAD
 
             // Use dock id to get a list of all free slips at that dock, use it as gridview datasource
             grdSlipsDock.DataSource = SlipManager.getFreeSlipDataForViewing(dockID);
+=======
+            grdSlipsDock.DataSource = MarinaManager.getFreeSlipDataForViewing(dockID);
+            pnlStep2.Visible = true;
+>>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d
             DataBind();
 
             // Show grid if currently hidden

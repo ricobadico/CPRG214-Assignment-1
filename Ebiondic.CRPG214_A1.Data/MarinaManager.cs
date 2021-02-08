@@ -1,15 +1,22 @@
-﻿using CPRG214_Assignment1.Data;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CPRG214.Assignment1.Data
+namespace CPRG214_Assignment1.Data
 {
-    public class SlipManager
+    public class MarinaManager
     {
+        public static List<Dock> GetDocks()
+        {
+            MarinaEntities db = new MarinaEntities();
+            List<Dock> docks = db.Docks.ToList();
+
+            return docks;
+        }
+
         public static List<Slip> GetAllSlips()
         {
             MarinaEntities db = new MarinaEntities();
@@ -61,6 +68,7 @@ namespace CPRG214.Assignment1.Data
             return slipData;
         }
 
+<<<<<<< HEAD:Ebiondic.CRPG214_A1.Data/SlipManager.cs
         /// <summary>
         /// Inserts a new entry into the Leases table,
         /// using the SlipID of an unleased slip.
@@ -89,6 +97,27 @@ namespace CPRG214.Assignment1.Data
             };
 
             db.Leases.Add(newLease);
+=======
+        public static int? Authenticate(string fname, string lname)
+        {
+            int? custID = null;
+            var db = new MarinaEntities();
+            var customer = db.Customers.
+                SingleOrDefault(cust => cust.FirstName == fname && cust.LastName == lname);
+
+            if (customer != null)
+            {
+                custID = customer.ID;
+            }
+
+            return custID;
+        }
+
+        public static void AddCustomer(Customer customer)
+        {
+            var db = new MarinaEntities();
+            db.Customers.Add(customer);
+>>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d:Ebiondic.CRPG214_A1.Data/MarinaManager.cs
             db.SaveChanges();
         }
     }
