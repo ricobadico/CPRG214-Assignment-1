@@ -8,12 +8,14 @@
                 <td style="width:150px">First Name:</td>
                 <td>
                     <asp:TextBox ID="uxFName" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="uxFName" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td>Last Name:</td>
                 <td>
                     <asp:TextBox ID="uxLName" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="uxLName" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -21,13 +23,9 @@
                     <asp:Button ID="uxAuthenticate" runat="server" Text="Register" OnClick="uxAuthenticate_Click" />
                 </td>
             </tr>
-            <tr>
-                <td colspan="2">
-                    <asp:ValidationSummary ID="uxValidationSummary1" runat="server" />
-            </tr>
         </table>
-        <asp:Label ID="uxErrorMessage" runat="server" ForeColor="Red"></asp:Label>
+        <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
         <br />
-        <asp:Label ID="uxRedirectAlert" runat="server" Text=""></asp:Label><asp:Label ID="uxRedirectLabelNatural" runat="server" Text="If you are a new customer, please click "></asp:Label><asp:LinkButton ID="uxRedirectLink" runat="server" PostBackUrl="~/NewCustomer">here</asp:LinkButton>
+        <asp:Label ID="uxRedirectAlert" runat="server" Text=""></asp:Label><asp:Label ID="uxRedirectLabelNatural" runat="server" Text="If you are a new customer, please click "></asp:Label><asp:LinkButton ID="uxRedirectLink" runat="server" PostBackUrl="~/NewCustomer" CausesValidation="False">here</asp:LinkButton>
     </div>
 </asp:Content>

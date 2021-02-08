@@ -82,5 +82,12 @@ namespace CPRG214_Assignment1.Data
 
             return custID;
         }
+
+        public static void AddCustomer(Customer customer)
+        {
+            var db = new MarinaEntities();
+            db.Customers.Add(customer);
+            db.SaveChanges();
+        }
     }
 }

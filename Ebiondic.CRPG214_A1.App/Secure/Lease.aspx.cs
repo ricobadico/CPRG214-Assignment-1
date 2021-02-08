@@ -13,6 +13,11 @@ namespace CPRG214.Assignment1.App.Secure
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["CustomerID"] == null)
+            {
+                Response.Redirect("~/Register");
+            }
+
             if (!IsPostBack)
             {
                 ddlDock.DataSource = MarinaManager.GetDocks();

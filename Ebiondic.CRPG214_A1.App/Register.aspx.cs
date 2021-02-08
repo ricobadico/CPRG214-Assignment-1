@@ -38,7 +38,9 @@ namespace CPRG214.Assignment1.App
 				else
                 {
 					uxRedirectAlert.Text = "Your name is not in our records; please check your spelling. ";
-                }
+					Session.Add("CustomerFName", uxFName.Text);
+					Session.Add("CustomerLName", uxLName.Text);
+				}
 			}
 			
 			
