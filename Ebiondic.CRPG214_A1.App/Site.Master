@@ -59,10 +59,13 @@
                         <a class="nav-link" href="~/Slips" runat="server">Available Slips</a>
                         </li>
 	                    <li class="nav-item">
-                        <a class="nav-link" href="/Contact" runat="server">Contact Us</a>
+                        <a class="nav-link" href="~/Contact" runat="server">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="/Register" runat="server">Register</a>
+                        <a class="nav-link" href="~/Register" runat="server">Register</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="~/Secure/Lease" runat="server">Lease (HERE FOR DEVELOPMNENT ONLY)</a>
                         </li>
                     </ul>
                     <span id="uxWelcome" runat="server" class="navbar-text"></span>

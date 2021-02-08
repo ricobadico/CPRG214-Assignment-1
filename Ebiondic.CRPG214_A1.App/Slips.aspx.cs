@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using CPRG214.Assignment1.Data;
+using CPRG214_Assignment1.App.Controls;
 
 namespace CPRG214.Assignment1.App
 {
@@ -29,7 +30,7 @@ namespace CPRG214.Assignment1.App
         {
             if (e.Row.RowType == DataControlRowType.Header)
             {
-                gridHeaderFormat(e);
+                FormattingHelper.gridHeaderFormat(e);
             }
         }
 
@@ -37,7 +38,7 @@ namespace CPRG214.Assignment1.App
         {
             if (e.Row.RowType == DataControlRowType.Header)
             {
-                gridHeaderFormat(e);
+                FormattingHelper.gridHeaderFormat(e);
             }
         }
 
@@ -45,19 +46,9 @@ namespace CPRG214.Assignment1.App
         {
             if (e.Row.RowType == DataControlRowType.Header)
             {
-                gridHeaderFormat(e);
+                FormattingHelper.gridHeaderFormat(e);
             }
         }
 
-        /// <summary>
-        /// Formats the datagrid that just auto populated to have formatted header names
-        /// </summary>
-        /// <param name="e">Data from the event that triggered it</param>
-        public void gridHeaderFormat(GridViewRowEventArgs e)
-        {
-            e.Row.Cells[0].Text = "ID #";
-            e.Row.Cells[1].Text = "Width (m)";
-            e.Row.Cells[2].Text = "Length (m)";
-        }
     }
 }
