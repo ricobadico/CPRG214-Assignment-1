@@ -40,5 +40,15 @@ namespace CPRG214.Assignment1.App.Secure
                 FormattingHelper.gridHeaderFormat(e);
             }
         }
+
+        protected void grdSlipsDock_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            int rowIndex = Convert.ToInt32(e.CommandArgument);
+            GridViewRow currentRow = grdSlipsDock.Rows[rowIndex];
+
+            string slipID = ((Label)grdSlipsDock.Rows[currentRow.RowIndex].FindControl("SlipID")).Text;
+
+            System.Diagnostics.Debug.WriteLine(slipID);
+        }
     }
 }
