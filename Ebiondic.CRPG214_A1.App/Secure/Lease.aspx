@@ -2,10 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2 class="text-center">Lease a Slip</h2>
     <h3 class="text-center">Select an available slip to lease.</h3>
+    <p class="text-center">
+        <asp:DropDownList ID="ddlDock" runat="server" Width="145px">
+        </asp:DropDownList>
+    </p>
     <p class="text-center">&nbsp;</p>
 
-
-    C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.App.DLL
-    C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CPRG214_Assignment1.App.DLL
+    
 
 </asp:Content>

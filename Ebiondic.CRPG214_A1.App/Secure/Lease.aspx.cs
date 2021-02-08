@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CPRG214_Assignment1.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,15 @@ namespace CPRG214.Assignment1.App.Secure
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                ddlDock.DataSource = DockManager.GetDocks();
+                ddlDock.DataTextField = "Name";
+                ddlDock.DataValueField = "ID";
+                ddlDock.DataBind();
+                ddlDock.SelectedIndex = 0;
+                
+            }
         }
     }
 }
