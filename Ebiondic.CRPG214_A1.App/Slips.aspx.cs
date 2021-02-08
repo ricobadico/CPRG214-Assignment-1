@@ -15,9 +15,9 @@ namespace CPRG214.Assignment1.App
             if (!IsPostBack)
             {
                 // Get data from database
-                grdSlipsDock1.DataSource = SlipManager.GetFreeSlipsByDock(1);
-                grdSlipsDock2.DataSource = SlipManager.GetFreeSlipsByDock(2);
-                grdSlipsDock3.DataSource = SlipManager.GetFreeSlipsByDock(3);
+                grdSlipsDock1.DataSource = SlipManager.getFreeSlipDataForViewing(1);
+                grdSlipsDock2.DataSource = SlipManager.getFreeSlipDataForViewing(2);
+                grdSlipsDock3.DataSource = SlipManager.getFreeSlipDataForViewing(3);
                 DataBind();
 
             }
@@ -35,14 +35,18 @@ namespace CPRG214.Assignment1.App
 
         protected void grdSlipsDock2_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            gridHeaderFormat(e);
-
+            if (e.Row.RowType == DataControlRowType.Header)
+            {
+                gridHeaderFormat(e);
+            }
         }
 
         protected void grdSlipsDock3_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            gridHeaderFormat(e);
-
+            if (e.Row.RowType == DataControlRowType.Header)
+            {
+                gridHeaderFormat(e);
+            }
         }
 
         /// <summary>

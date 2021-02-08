@@ -16,7 +16,12 @@ namespace CPRG214.Assignment1.Data
             return slips;
         }
 
-        public static IList GetFreeSlipsByDock(int DockID)
+        /// <summary>
+        /// Get all unleased slips from a particular dock
+        /// </summary>
+        /// <param name="DockID">The ID of the chosen Dock</param>
+        /// <returns></returns>
+        public static List<Slip> GetFreeSlipsByDock(int DockID)
         {
             // Go to the database and get lease and slip data
             MarinaEntities db = new MarinaEntities();
@@ -28,6 +33,19 @@ namespace CPRG214.Assignment1.Data
 
             // Grab all slips where the slip id is not among the list of leased slip ids 
             List<Slip> freeSlipsInDock = slipsInDock.Where(slip => !leasedSlipIDs.Contains(slip.ID)).ToList();
+
+            return freeSlipsInDock;
+        }
+
+        /// <summary>
+        /// Gets unleased slip data in a format needed for data grid presentation
+        /// </summary>
+        /// <param name="DockID">ID of the dock chosen</param>
+        /// <returns></returns>
+        public static IList getFreeSlipDataForViewing(int DockID)
+        {
+
+            List<Slip> freeSlipsInDock = GetFreeSlipsByDock(DockID);
 
             // Finally, get just the needed data for a more presentable finish
             var slipData = freeSlipsInDock.Select(slip => new
