@@ -54,8 +54,14 @@ textarea {
     border-radius: 10px;
 }
 
-.boat-bg{
-   background-image:url(../Media/boat1.png);
-   background-position:center;
-   background-size:cover;
+.boat-bg {
+    background-image: url(../Media/boat1.png); /*Free image by dak from https://illustoon.com/?id=2339 */
+    background-position: center;
+    background-size: cover;
+}
+
+.boat-bg-2 {
+    background-image: url(../Media/boat2.png);
+    background-position: center;
+    background-size: cover;
 }

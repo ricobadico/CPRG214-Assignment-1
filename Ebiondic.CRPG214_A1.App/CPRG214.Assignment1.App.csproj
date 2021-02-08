@@ -131,6 +131,8 @@
     <Content Include="Media\boat.png" />
     <Content Include="Media\banner.jpg" />
     <Content Include="Media\bannerEdit.jpg" />
+    <Content Include="Media\boat1.png" />
+    <Content Include="Media\boat2.png" />
     <Content Include="Media\marina1.jpg" />
     <Content Include="Media\marina2.jpg" />
     <Content Include="Login.aspx" />
