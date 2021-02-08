@@ -14,9 +14,9 @@ namespace CPRG214_Assignment1.App.Controls
         /// <param name="e">Data from the event that triggered it</param>
         public static void gridHeaderFormat(GridViewRowEventArgs e)
         {
-            e.Row.Cells[0].Text = "ID #";
-            e.Row.Cells[1].Text = "Width (m)";
-            e.Row.Cells[2].Text = "Length (m)";
+            e.Row.Cells[1].Text = "ID #";
+            e.Row.Cells[2].Text = "Width (m)";
+            e.Row.Cells[3].Text = "Length (m)";
         }
     }
 }

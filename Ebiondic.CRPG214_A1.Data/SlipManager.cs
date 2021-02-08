@@ -59,5 +59,36 @@ namespace CPRG214.Assignment1.Data
 
             return slipData;
         }
+
+        /// <summary>
+        /// Inserts a new entry into the Leases table,
+        /// using the SlipID of an unleased slip.
+        /// </summary>
+        /// <param name="slipID"></param>
+        public static void InsertNewLease(int slipID)
+        {
+            // Connect to db
+            MarinaEntities db = new MarinaEntities();
+
+            // grab slip object using the provided ID
+            Slip slip = db.Slips.
+                SingleOrDefault(s => s.ID == slipID);
+
+            // grab customer object using session
+            int custId = 1; //TODO get from session
+            Customer cust = db.Customers.
+                SingleOrDefault(c => c.ID == custId); 
+
+            Lease newLease = new Lease
+            {
+                SlipID = slipID,
+                CustomerID = custId,
+                Customer = cust,
+                Slip = slip
+            };
+
+            db.Leases.Add(newLease);
+            db.SaveChanges();
+        }
     }
 }
