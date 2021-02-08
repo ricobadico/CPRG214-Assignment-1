@@ -1,6 +1,3 @@
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.App.dll.config
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.App.dll
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.App.pdb
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\roslyn\csc.exe
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\roslyn\csc.exe.config
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\roslyn\csc.rsp
@@ -53,7 +50,6 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\ros
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Antlr3.Runtime.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.SqlServer.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Microsoft.AspNet.FriendlyUrls.dll
@@ -65,8 +61,6 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Mic
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Newtonsoft.Json.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\System.Web.Optimization.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\WebGrease.dll
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.pdb
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Ebiondic.CRPG214_A1.Data.dll.config
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.xml
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\EntityFramework.SqlServer.xml
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\System.Web.Optimization.xml
@@ -77,5 +71,11 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\Mic
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\CRPG214.Assignment1.App.csprojAssemblyReference.cache
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\CRPG214.Assignment1.App.csproj.CoreCompileInputs.cache
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\CRPG214.Assignment1.App.csproj.CopyComplete
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\Ebiondic.CRPG214_A1.App.dll
-C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\Ebiondic.CRPG214_A1.App.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.App.dll.config
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.App.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.App.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.Data.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.Data.pdb
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\bin\CRPG214_Assignment1.Data.dll.config
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\CRPG214_Assignment1.App.dll
+C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.App\obj\Debug\CRPG214_Assignment1.App.pdb

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CPRG214.Assignment1.Data
+namespace CRPG214_Assignment1.Data
 {
     using System;
     using System.Data.Entity;
