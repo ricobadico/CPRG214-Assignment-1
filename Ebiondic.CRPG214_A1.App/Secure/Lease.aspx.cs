@@ -20,8 +20,7 @@ namespace CPRG214.Assignment1.App.Secure
                 ddlDock.DataValueField = "ID";
                 ddlDock.DataBind();
                 ddlDock.SelectedIndex = 0;
-                pnlStep2.Visible = false;
-            }
+                pnlStep2.Visible = false;            }
         }
 
         protected void ddlDock_SelectedIndexChanged(object sender, EventArgs e)

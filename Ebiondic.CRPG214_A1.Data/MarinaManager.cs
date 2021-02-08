@@ -67,5 +67,20 @@ namespace CPRG214_Assignment1.Data
 
             return slipData;
         }
+
+        public static int? Authenticate(string fname, string lname)
+        {
+            int? custID = null;
+            var db = new MarinaEntities();
+            var customer = db.Customers.
+                SingleOrDefault(cust => cust.FirstName == fname && cust.LastName == lname);
+
+            if (customer != null)
+            {
+                custID = customer.ID;
+            }
+
+            return custID;
+        }
     }
 }

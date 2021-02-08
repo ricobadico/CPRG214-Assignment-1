@@ -15,40 +15,22 @@ namespace CPRG214.Assignment1.App
     {
 
         /// <summary>
-        /// uxUsername control.
+        /// uxFName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox uxUsername;
+        protected global::System.Web.UI.WebControls.TextBox uxFName;
 
         /// <summary>
-        /// uxUsernameVali control.
+        /// uxLName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxUsernameVali;
-
-        /// <summary>
-        /// uxPassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox uxPassword;
-
-        /// <summary>
-        /// uxPasswordVali control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxPasswordVali;
+        protected global::System.Web.UI.WebControls.TextBox uxLName;
 
         /// <summary>
         /// uxAuthenticate control.
@@ -67,5 +49,41 @@ namespace CPRG214.Assignment1.App
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary uxValidationSummary1;
+
+        /// <summary>
+        /// uxErrorMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label uxErrorMessage;
+
+        /// <summary>
+        /// uxRedirectAlert control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label uxRedirectAlert;
+
+        /// <summary>
+        /// uxRedirectLabelNatural control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label uxRedirectLabelNatural;
+
+        /// <summary>
+        /// uxRedirectLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton uxRedirectLink;
     }
 }
