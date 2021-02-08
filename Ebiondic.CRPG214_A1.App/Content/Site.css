@@ -53,3 +53,9 @@ textarea {
     margin: 1em auto;
     border-radius: 10px;
 }
+
+.boat-bg{
+   background-image:url(../Media/boat1.png);
+   background-position:center;
+   background-size:cover;
+}

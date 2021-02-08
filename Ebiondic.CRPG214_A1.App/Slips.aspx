@@ -5,64 +5,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2 class="text-center">Available Slips</h2>
     <h3 class="text-center">Below are a list of slips currently available for leasing, along with their details.</h3>
+    <p class="text-center">Select a Dock:
+        <asp:DropDownList ID="ddlDock" runat="server" Width="145px" AutoPostBack="True" OnSelectedIndexChanged="ddlDock_SelectedIndexChanged">
+        </asp:DropDownList>
+    </p>
 
- <div class="container"></div>
-    <div class="row">
-        <div class="col-sm-4">
-            <h5 class="text-center">Dock 1</h5>
-            <asp:GridView ID="grdSlipsDock1" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock1_RowDataBound">
-            <RowStyle HorizontalAlign="Center" />     
-                <HeaderStyle HorizontalAlign="Center" /> 
-                <AlternatingRowStyle BackColor="White" />
-                <EditRowStyle BackColor="#2461BF" CssClass="text-center" HorizontalAlign="Center" />
-                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" CssClass="text-center" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                <RowStyle BackColor="#EFF3FB" />
-                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-                <SortedAscendingCellStyle BackColor="#F5F7FB" />
-                <SortedAscendingHeaderStyle BackColor="#6D95E1" />
-                <SortedDescendingCellStyle BackColor="#E9EBEF" />
-                <SortedDescendingHeaderStyle BackColor="#4870BE" />
-             </asp:GridView>
-        </div>
-        <div class="col-sm-4">
-            <h5 class="text-center">Dock 2</h5>
-            <asp:GridView ID="grdSlipsDock2" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock2_RowDataBound">
-            <HeaderStyle HorizontalAlign="Center" /> 
-                <RowStyle HorizontalAlign="Center" />                
-                <AlternatingRowStyle BackColor="White" />
-                <EditRowStyle BackColor="#2461BF" />
-                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                <RowStyle BackColor="#EFF3FB" />
-                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-                <SortedAscendingCellStyle BackColor="#F5F7FB" />
-                <SortedAscendingHeaderStyle BackColor="#6D95E1" />
-                <SortedDescendingCellStyle BackColor="#E9EBEF" />
-                <SortedDescendingHeaderStyle BackColor="#4870BE" />
-            </asp:GridView>
-        </div>
-        <div class="col-sm-4">
-            <h5 class="text-center">Dock 3</h5>
-            <asp:GridView ID="grdSlipsDock3" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock3_RowDataBound">
-            <RowStyle HorizontalAlign="Center" />
-                <HeaderStyle HorizontalAlign="Center" /> 
-                    <AlternatingRowStyle BackColor="White" />
-                    <EditRowStyle BackColor="#2461BF" />
-                    <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                    <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                    <RowStyle BackColor="#EFF3FB" />
-                    <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-                    <SortedAscendingCellStyle BackColor="#F5F7FB" />
-                    <SortedAscendingHeaderStyle BackColor="#6D95E1" />
-                    <SortedDescendingCellStyle BackColor="#E9EBEF" />
-                    <SortedDescendingHeaderStyle BackColor="#4870BE" />
-            </asp:GridView>
-        </div>
-    </div>
+     <asp:Panel ID="slipContainer1" runat="server" CssClass="d-flex flex-wrap"></asp:Panel>
+
+
+    
 
     
 

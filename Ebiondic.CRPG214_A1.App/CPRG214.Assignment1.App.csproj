@@ -128,6 +128,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="Media\boat.png" />
     <Content Include="Media\banner.jpg" />
     <Content Include="Media\bannerEdit.jpg" />
     <Content Include="Media\marina1.jpg" />

@@ -8,12 +8,12 @@
         </asp:DropDownList>
     </p>
     <asp:Panel ID="pnlStep2" runat="server">
-        <asp:GridView ID="grdSlipsDock" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock1_RowDataBound">
+        <asp:GridView ID="grdSlipsDock" runat="server" Height="217px" Width="300px" CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="mx-sm-auto" OnRowDataBound="grdSlipsDock1_RowDataBound" OnRowCommand="grdSlipsDock_RowCommand">
              <RowStyle HorizontalAlign="Center" />
             <HeaderStyle HorizontalAlign="Center" /> 
             <AlternatingRowStyle BackColor="White" />
             <Columns>
-                <asp:ButtonField ButtonType="Button" HeaderText="Lease" ShowHeader="True" Text="Select" />
+                <asp:ButtonField ButtonType="Button" HeaderText="Lease" ShowHeader="True" Text="Select" CommandName="Lease" />
             </Columns>
             <EditRowStyle BackColor="#2461BF" CssClass="text-center" HorizontalAlign="Center" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
