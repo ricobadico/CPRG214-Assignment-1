@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using CPRG214.Assignment1.Data;
 using CPRG214_Assignment1.App.Controls;
+using CPRG214_Assignment1.Data;
 
 namespace CPRG214.Assignment1.App
 {
@@ -16,9 +16,9 @@ namespace CPRG214.Assignment1.App
             if (!IsPostBack)
             {
                 // Get data from database
-                grdSlipsDock1.DataSource = SlipManager.getFreeSlipDataForViewing(1);
-                grdSlipsDock2.DataSource = SlipManager.getFreeSlipDataForViewing(2);
-                grdSlipsDock3.DataSource = SlipManager.getFreeSlipDataForViewing(3);
+                grdSlipsDock1.DataSource = MarinaManager.getFreeSlipDataForViewing(1);
+                grdSlipsDock2.DataSource = MarinaManager.getFreeSlipDataForViewing(2);
+                grdSlipsDock3.DataSource = MarinaManager.getFreeSlipDataForViewing(3);
                 DataBind();
 
             }

@@ -1,5 +1,4 @@
-﻿using CPRG214.Assignment1.Data;
-using CPRG214_Assignment1.App.Controls;
+﻿using CPRG214_Assignment1.App.Controls;
 using CPRG214_Assignment1.Data;
 using System;
 using System.Collections.Generic;
@@ -16,7 +15,7 @@ namespace CPRG214.Assignment1.App.Secure
         {
             if (!IsPostBack)
             {
-                ddlDock.DataSource = DockManager.GetDocks();
+                ddlDock.DataSource = MarinaManager.GetDocks();
                 ddlDock.DataTextField = "Name";
                 ddlDock.DataValueField = "ID";
                 ddlDock.DataBind();
@@ -28,7 +27,7 @@ namespace CPRG214.Assignment1.App.Secure
         protected void ddlDock_SelectedIndexChanged(object sender, EventArgs e)
         {
             int dockID = Convert.ToInt32(ddlDock.SelectedValue);
-            grdSlipsDock.DataSource = SlipManager.getFreeSlipDataForViewing(dockID);
+            grdSlipsDock.DataSource = MarinaManager.getFreeSlipDataForViewing(dockID);
             pnlStep2.Visible = true;
             DataBind();
         }

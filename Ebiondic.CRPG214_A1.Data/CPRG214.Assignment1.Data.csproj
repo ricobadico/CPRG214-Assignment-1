@@ -50,8 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DockManager.cs" />
-    <Compile Include="SlipManager.cs" />
+    <Compile Include="MarinaManager.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>Marina.tt</DependentUpon>
     </Compile>
