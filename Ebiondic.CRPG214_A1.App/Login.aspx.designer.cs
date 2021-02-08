@@ -24,6 +24,15 @@ namespace CPRG214.Assignment1.App
         protected global::System.Web.UI.WebControls.TextBox uxUsername;
 
         /// <summary>
+        /// uxUsernameVali control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxUsernameVali;
+
+        /// <summary>
         /// uxPassword control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace CPRG214.Assignment1.App
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox uxPassword;
+
+        /// <summary>
+        /// uxPasswordVali control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator uxPasswordVali;
 
         /// <summary>
         /// uxAuthenticate control.
@@ -42,12 +60,12 @@ namespace CPRG214.Assignment1.App
         protected global::System.Web.UI.WebControls.Button uxAuthenticate;
 
         /// <summary>
-        /// uxMessage control.
+        /// uxValidationSummary1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label uxMessage;
+        protected global::System.Web.UI.WebControls.ValidationSummary uxValidationSummary1;
     }
 }
