@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CPRG214.Assignment1.App
+namespace Ebiondic.CRPG214_A1.App.Controls
 {
-    public partial class About : System.Web.UI.Page
+    public partial class DockSelector : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {

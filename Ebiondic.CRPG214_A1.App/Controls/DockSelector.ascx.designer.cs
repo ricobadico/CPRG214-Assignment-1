@@ -8,9 +8,9 @@
 //------------------------------------------------------------------------------
 
 
-namespace CPRG214.Assignment1.App
+namespace Ebiondic.CRPG214_A1.App.Controls
 {
-    public partial class About
+    public partial class DockSelector
     {
     }
 }
