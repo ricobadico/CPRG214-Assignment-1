@@ -25,6 +25,7 @@ namespace CPRG214.Assignment1.App.Controls
             lblWater.Text = $"{(slip.Dock.WaterService ? "Water" : "-")}";
             lblElectric.Text = $"{(slip.Dock.ElectricalService ? "Electrical" : "-")}";
 
+         
         }
     }
 }
