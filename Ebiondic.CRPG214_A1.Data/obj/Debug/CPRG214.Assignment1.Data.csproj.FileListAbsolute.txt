@@ -9,4 +9,19 @@ C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\De
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214.Assignment1.Data.csproj.CopyComplete
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214_Assignment1.Data.dll
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214_Assignment1.Data.pdb
+<<<<<<< HEAD
 C:\Users\811405\source\repos\Ebiondic.CRPG214_A1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214.Assignment1.Data.csprojAssemblyReference.cache
+=======
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\CPRG214_Assignment1.Data.dll.config
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\CPRG214_Assignment1.Data.dll
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\CPRG214_Assignment1.Data.pdb
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\EntityFramework.dll
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\EntityFramework.xml
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214.Assignment1.Data.csprojAssemblyReference.cache
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214.Assignment1.Data.csproj.CoreCompileInputs.cache
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214.Assignment1.Data.csproj.CopyComplete
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214_Assignment1.Data.dll
+C:\Users\ricky\Source\Repos\CPRG214-Assignment-1\Ebiondic.CRPG214_A1.Data\obj\Debug\CPRG214_Assignment1.Data.pdb
+>>>>>>> main

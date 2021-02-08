@@ -14,6 +14,7 @@ namespace CPRG214.Assignment1.Data
         {
             MarinaEntities db = new MarinaEntities();
             var slips = db.Slips.ToList();
+            //return slips;
             return slips;
         }
 
