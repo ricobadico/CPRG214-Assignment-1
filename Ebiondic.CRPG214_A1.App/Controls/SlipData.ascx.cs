@@ -11,7 +11,7 @@ namespace CPRG214.Assignment1.App.Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //test
+
         }
     }
 }
