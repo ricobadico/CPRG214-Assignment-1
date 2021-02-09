@@ -73,8 +73,11 @@ namespace CPRG214.Assignment1.App.Secure
             // Pull the Slip ID out of the current row (it sits at column index 1)
             int slipID = Convert.ToInt32(grdSlipsDock.Rows[currentRow.RowIndex].Cells[1].Text);
 
+            // Pull current Customer ID from session
+            int custID = Convert.ToInt32(Session["CustomerID"]);
+
             // Insert the new lease info to the database
-            MarinaManager.InsertNewLease(slipID);
+            MarinaManager.InsertNewLease(slipID, custID);
 
             // Alert the user
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('[Purchasing happens here] Congrats! The slip has been successfully leased.')", true);

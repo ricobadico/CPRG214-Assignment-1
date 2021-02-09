@@ -73,7 +73,7 @@ namespace CPRG214_Assignment1.Data
         /// using the SlipID of an unleased slip.
         /// </summary>
         /// <param name="slipID"></param>
-        public static void InsertNewLease(int slipID)
+        public static void InsertNewLease(int slipID, int custFromSession)
         {
             // Connect to db
             MarinaEntities db = new MarinaEntities();
@@ -83,14 +83,13 @@ namespace CPRG214_Assignment1.Data
                 SingleOrDefault(s => s.ID == slipID);
 
             // grab customer object using session
-            int custId = 1; //TODO get from session
             Customer cust = db.Customers.
-                SingleOrDefault(c => c.ID == custId);
+                SingleOrDefault(c => c.ID == custFromSession);
 
             Lease newLease = new Lease
             {
                 SlipID = slipID,
-                CustomerID = custId,
+                CustomerID = custFromSession,
                 Customer = cust,
                 Slip = slip
             };
