@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using CPRG214.Assignment1.Data;
 using CPRG214_Assignment1.App.Controls;
 using CPRG214_Assignment1.Data;
 
@@ -17,7 +16,8 @@ namespace CPRG214.Assignment1.App
             if (!IsPostBack)
             {
 
-                ddlDock.DataSource = DockManager.GetDocks();
+
+                ddlDock.DataSource = MarinaManager.GetDocks();
                 ddlDock.DataTextField = "Name";
                 ddlDock.DataValueField = "ID";
                 ddlDock.DataBind();
@@ -32,7 +32,7 @@ namespace CPRG214.Assignment1.App
         private void FillSlipDisplay(int dockID, Panel container)
         {
             // get the list of free slips of the given dock
-            var freeSlips = SlipManager.GetFreeSlipsByDock(dockID);
+            var freeSlips = MarinaManager.GetFreeSlipsByDock(dockID);
 
             for (int i = 0; i< freeSlips.Count; i++)
             {

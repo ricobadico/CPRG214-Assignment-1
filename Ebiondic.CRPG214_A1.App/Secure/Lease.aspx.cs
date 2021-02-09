@@ -1,5 +1,4 @@
-﻿using CPRG214.Assignment1.Data;
-using CPRG214_Assignment1.App.Controls;
+﻿using CPRG214_Assignment1.App.Controls;
 using CPRG214_Assignment1.Data;
 using System;
 using System.Collections.Generic;
@@ -15,17 +14,24 @@ namespace CPRG214.Assignment1.App.Secure
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["CustomerID"] == null)
+            {
+                Response.Redirect("~/Register");
+            }
+
             if (!IsPostBack)
             {
-                // Bind Dock Data to dropdown
-                ddlDock.DataSource = DockManager.GetDocks();
+
+                ddlDock.DataSource = MarinaManager.GetDocks();
+
                 ddlDock.DataTextField = "Name";
                 ddlDock.DataValueField = "ID";
                 ddlDock.DataBind();
 
                 // Set up default dropdown/page view
                 ddlDock.SelectedIndex = 0;
-                //pnlStep2.Visible = false;
+
+                pnlStep2.Visible = false;            
             }
         }
 
@@ -35,8 +41,9 @@ namespace CPRG214.Assignment1.App.Secure
             // Get dock id from withing dropdown selection
             int dockID = Convert.ToInt32(ddlDock.SelectedValue);
 
-            // Use dock id to get a list of all free slips at that dock, use it as gridview datasource
-            grdSlipsDock.DataSource = SlipManager.getFreeSlipDataForViewing(dockID);
+            grdSlipsDock.DataSource = MarinaManager.getFreeSlipDataForViewing(dockID);
+            pnlStep2.Visible = true;
+
             DataBind();
 
             // Show grid if currently hidden
@@ -67,7 +74,7 @@ namespace CPRG214.Assignment1.App.Secure
             int slipID = Convert.ToInt32(grdSlipsDock.Rows[currentRow.RowIndex].Cells[1].Text);
 
             // Insert the new lease info to the database
-            SlipManager.InsertNewLease(slipID);
+            MarinaManager.InsertNewLease(slipID);
 
             // Alert the user
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('[Purchasing happens here] Congrats! The slip has been successfully leased.')", true);
