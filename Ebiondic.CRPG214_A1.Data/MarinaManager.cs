@@ -68,7 +68,6 @@ namespace CPRG214_Assignment1.Data
             return slipData;
         }
 
-<<<<<<< HEAD:Ebiondic.CRPG214_A1.Data/SlipManager.cs
         /// <summary>
         /// Inserts a new entry into the Leases table,
         /// using the SlipID of an unleased slip.
@@ -86,7 +85,7 @@ namespace CPRG214_Assignment1.Data
             // grab customer object using session
             int custId = 1; //TODO get from session
             Customer cust = db.Customers.
-                SingleOrDefault(c => c.ID == custId); 
+                SingleOrDefault(c => c.ID == custId);
 
             Lease newLease = new Lease
             {
@@ -97,7 +96,8 @@ namespace CPRG214_Assignment1.Data
             };
 
             db.Leases.Add(newLease);
-=======
+        }
+
         public static int? Authenticate(string fname, string lname)
         {
             int? custID = null;
@@ -117,7 +117,7 @@ namespace CPRG214_Assignment1.Data
         {
             var db = new MarinaEntities();
             db.Customers.Add(customer);
->>>>>>> 7d8d9b8f80bdbedfed997759b7859f5059c6e89d:Ebiondic.CRPG214_A1.Data/MarinaManager.cs
+
             db.SaveChanges();
         }
     }

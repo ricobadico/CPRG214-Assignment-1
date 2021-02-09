@@ -21,12 +21,10 @@ namespace CPRG214.Assignment1.App
         {
 			if (uxFName.Text == null || uxFName.Text == "" || uxLName.Text == null || uxLName.Text == "")
             {
-				uxErrorMessage.Text = "Both first name and last name are required.";
+				
             }
 			else
             {
-				uxErrorMessage.Text = "";
-
 				var custID = MarinaManager.Authenticate(uxFName.Text, uxLName.Text);
 
 				if (custID != null)
