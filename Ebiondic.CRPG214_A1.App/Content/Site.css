@@ -73,7 +73,7 @@ textarea {
     width:100%;
     background-image: url("../Media/waves.png"); /*Free image by Patrickx96 from https://www.clipartkey.com/view/iiibox_wind-wave-wave-pool-ocean-clip-art-pool/ */
     background-size: contain;
-    flex-shrink 0;
+    flex-shrink: 0;
 }
 .navbar-nav a{
     font-size:large;
