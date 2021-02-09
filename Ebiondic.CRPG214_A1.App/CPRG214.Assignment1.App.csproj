@@ -135,6 +135,8 @@
     <Content Include="Media\boat2.png" />
     <Content Include="Media\marina1.jpg" />
     <Content Include="Media\marina2.jpg" />
+    <Content Include="Media\waves.png" />
+    <Content Include="Media\white-waves.png" />
     <Content Include="NewCustomer.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />

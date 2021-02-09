@@ -1,6 +1,8 @@
 ﻿
 body {
     padding-bottom: 20px;
+    background-image: url(../Media/white-waves.png); /*Image by Stas Pimenov from https://www.toptal.com/designers/subtlepatterns/white-waves-pattern/ */
+    min-height: 100vh;
 }
 
 /* Wrapping element */
@@ -55,13 +57,24 @@ textarea {
 }
 
 .boat-bg {
-    background-image: url(../Media/boat1.png); /*Free image by dak from https://illustoon.com/?id=2339 */
+    background-image: url(../Media/boat1.png); 
     background-position: center;
     background-size: cover;
 }
 
 .boat-bg-2 {
-    background-image: url(../Media/boat2.png);
+    background-image: url(../Media/boat2.png); /*Free image by dak from https://illustoon.com/?id=2339 */
     background-position: center;
     background-size: cover;
+}
+
+.footer {
+    height: 100px;
+    width:100%;
+    background-image: url("../Media/waves.png"); /*Free image by Patrickx96 from https://www.clipartkey.com/view/iiibox_wind-wave-wave-pool-ocean-clip-art-pool/ */
+    background-size: contain;
+    flex-shrink 0;
+}
+.navbar-nav a{
+    font-size:large;
 }

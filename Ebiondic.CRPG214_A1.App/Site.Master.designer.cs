@@ -24,6 +24,15 @@ namespace CPRG214.Assignment1.App
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl uxWelcome;
 
         /// <summary>
+        /// uxRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor uxRegister;
+
+        /// <summary>
         /// uxLogin control.
         /// </summary>
         /// <remarks>

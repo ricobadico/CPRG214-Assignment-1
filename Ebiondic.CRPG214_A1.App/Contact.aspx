@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="CPRG214.Assignment1.App.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2 class="text-center p-3">Contact Us</h2>
-    
+    <h2 class="text-center p-5">Contact Us</h2>
+    <br />
     <div class="container">
 
         <div class="row">

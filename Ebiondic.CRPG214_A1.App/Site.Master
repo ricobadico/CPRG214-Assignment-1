@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body class="d-flex flex-column align-content-center justify-content-center">
+<body class="d-flex flex-column align-content-center justify-content-between pb-0">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -64,23 +64,23 @@
 	                    <li class="nav-item">
                         <a class="nav-link" href="~/Contact" runat="server">Contact Us</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="~/Register" runat="server">Register</a>
-                        </li>
                         
                     </ul>
-                    <span id="uxWelcome" runat="server" class="navbar-text"></span>
+                    <span id="uxWelcome" runat="server" class="navbar-text" style="font-size:large"></span>
                     <ul class="navbar-nav rm">
                         <li class="nav-item">
                             <a class="nav-link" runat="server" 
-                                href="~/Registration" title="Register">
-                                <span class="fa fa-user"></span>
+                                href="~/NewCustomer"
+                                id="uxRegister">
+                                Register
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" runat="server" title="Login"
-                                id="uxLogin" enableviewstate="false">
-                                <span class="fa fa-sign-in-alt"></span>
+                            <a class="nav-link" runat="server"
+                                href="~/Register"
+                                id="uxLogin"  onserverclick="HandleLoginClick"
+                                enableviewstate="false">
+                                Login
                             </a>
                         </li>
                     </ul>
@@ -91,13 +91,11 @@
 
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />   
+            </asp:ContentPlaceHolder> 
         </div>
-        <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
-
     </form>
+    <footer class="footer align-self-end" runat="server">
+                <p style="color:white; padding-top:70px;" class="text-center">Website fondly made by 'Ric and Ric' Developers</p> 
+            </footer>
 </body>
 </html>

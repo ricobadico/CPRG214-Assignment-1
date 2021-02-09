@@ -11,10 +11,10 @@ namespace CPRG214.Assignment1.App
 {
 	public partial class Register : System.Web.UI.Page
 	{
-		int x = 2;
+		
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			
 		}
 
         protected void uxAuthenticate_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace CPRG214.Assignment1.App
 				if (custID != null)
 				{
 					Session.Add("CustomerID", custID);
-
+					Session.Add("CustomerFName", uxFName.Text);
 					FormsAuthentication.RedirectFromLoginPage(custID.ToString(), false);
 				}
 				else
